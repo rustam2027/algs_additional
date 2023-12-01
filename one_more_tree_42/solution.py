@@ -49,7 +49,6 @@ class NumArray:
 
         recursion_update(vertex, delta)
 
-
         print(recursion_find(0, 0, self.nums_size - 1, index))
 
     def sumRange(self, left: int, right: int) -> int:
